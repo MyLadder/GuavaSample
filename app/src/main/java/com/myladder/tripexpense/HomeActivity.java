@@ -54,5 +54,11 @@ public class HomeActivity extends AppCompatActivity {
 
 
 
+
+         Multimap<String, Integer> scores = HashMultimap.create();
+        scores.put("Bob", 20);
+        scores.put("Bob", 10);
+        scores.put("Bob", 15);
+        System.out.println(Collections.max(scores.get("Bob"))); // prints 20
     }
 }
