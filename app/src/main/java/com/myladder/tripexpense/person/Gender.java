@@ -5,4 +5,5 @@ package com.myladder.tripexpense.person;
  */
 
 public enum Gender {
+    MALE, FEMALE
 }
